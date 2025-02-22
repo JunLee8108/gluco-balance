@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+:root {
+  --primary-blue: #4a90e2;
+  --dark-blue: #2d75c7;
+  --mint-green: #7ed321;
+  --dark-green: #6cbf21;
+  --soft-orange: #ffa726;
+  --dark-orange: #ff9800;
+  --background: #f8f9fa;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background);
+  min-height: 100vh;
+  overflow-y: scroll;
+}
